@@ -35,7 +35,6 @@
 		7446E2252E37F147002CF49C /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 7446E2242E37F147002CF49C /* OneSignalInAppMessages */; };
 		7446E2272E37F147002CF49C /* OneSignalLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 7446E2262E37F147002CF49C /* OneSignalLocation */; };
 		7446E22D2E37F1B4002CF49C /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 7446E22C2E37F1B4002CF49C /* AppsFlyerLib */; };
-		EDDF529DAB34EFA3DCE43AD0 /* Pods_FBNewsAndQvis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDC532EE76A135FDD66D26E /* Pods_FBNewsAndQvis.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,7 +79,6 @@
 				7446E2232E37F147002CF49C /* OneSignalFramework in Frameworks */,
 				7446E2272E37F147002CF49C /* OneSignalLocation in Frameworks */,
 				7446E2212E37F147002CF49C /* OneSignalExtension in Frameworks */,
-				EDDF529DAB34EFA3DCE43AD0 /* Pods_FBNewsAndQvis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
