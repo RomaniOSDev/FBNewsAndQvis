@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7406AF722E0F2C7B00038583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7406AF692E0F2C7B00038583 /* Assets.xcassets */; };
+		7406AF742E0F2C7B00038583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7406AF6C2E0F2C7B00038583 /* LaunchScreen.storyboard */; };
+		7406AF752E0F2C7B00038583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7406AF6E2E0F2C7B00038583 /* Main.storyboard */; };
+		7406AF762E0F2C7B00038583 /* FootballAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406AF532E0F2C7B00038583 /* FootballAPI.swift */; };
+		7406AF772E0F2C7B00038583 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406AF552E0F2C7B00038583 /* Match.swift */; };
+		7406AF782E0F2C7B00038583 /* Scorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406AF562E0F2C7B00038583 /* Scorer.swift */; };
+		7406AF792E0F2C7B00038583 /* Standing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406AF572E0F2C7B00038583 /* Standing.swift */; };
+		7406AF7A2E0F2C7B00038583 /* TeamAndPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406AF582E0F2C7B00038583 /* TeamAndPlayer.swift */; };
+		7406AF7B2E0F2C7B00038583 /* TeamList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406AF592E0F2C7B00038583 /* TeamList.swift */; };
+		7406AF7C2E0F2C7B00038583 /* MatchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406AF5B2E0F2C7B00038583 /* MatchRow.swift */; };
+		7406AF7D2E0F2C7B00038583 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406AF5C2E0F2C7B00038583 /* NewsView.swift */; };
+		7406AF7E2E0F2C7B00038583 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406AF5D2E0F2C7B00038583 /* TableView.swift */; };
+		7406AF7F2E0F2C7B00038583 /* AnswerCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406AF5F2E0F2C7B00038583 /* AnswerCellView.swift */; };
+		7406AF802E0F2C7B00038583 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406AF602E0F2C7B00038583 /* QuizView.swift */; };
+		7406AF812E0F2C7B00038583 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406AF622E0F2C7B00038583 /* InfoView.swift */; };
+		7406AF822E0F2C7B00038583 /* QuizResultsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406AF632E0F2C7B00038583 /* QuizResultsSheet.swift */; };
+		7406AF832E0F2C7B00038583 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406AF642E0F2C7B00038583 /* SettingsView.swift */; };
+		7406AF842E0F2C7B00038583 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406AF662E0F2C7B00038583 /* ContentView.swift */; };
+		7406AF852E0F2C7B00038583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406AF682E0F2C7B00038583 /* AppDelegate.swift */; };
+		7406AF862E0F2C7B00038583 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406AF6F2E0F2C7B00038583 /* SceneDelegate.swift */; };
+		7446E21C2E37F0D8002CF49C /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7446E2192E37F0D8002CF49C /* InternetViewController.swift */; };
+		7446E21D2E37F0D8002CF49C /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7446E2182E37F0D8002CF49C /* CheckLink.swift */; };
+		7446E21E2E37F0D8002CF49C /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7446E21A2E37F0D8002CF49C /* LoaderViewController.swift */; };
+		7446E2212E37F147002CF49C /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 7446E2202E37F147002CF49C /* OneSignalExtension */; };
+		7446E2232E37F147002CF49C /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 7446E2222E37F147002CF49C /* OneSignalFramework */; };
+		7446E2252E37F147002CF49C /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 7446E2242E37F147002CF49C /* OneSignalInAppMessages */; };
+		7446E2272E37F147002CF49C /* OneSignalLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 7446E2262E37F147002CF49C /* OneSignalLocation */; };
+		7446E22D2E37F1B4002CF49C /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 7446E22C2E37F1B4002CF49C /* AppsFlyerLib */; };
+		EDDF529DAB34EFA3DCE43AD0 /* Pods_FBNewsAndQvis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDC532EE76A135FDD66D26E /* Pods_FBNewsAndQvis.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7406AF532E0F2C7B00038583 /* FootballAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballAPI.swift; sourceTree = "<group>"; };
+		7406AF552E0F2C7B00038583 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		7406AF562E0F2C7B00038583 /* Scorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scorer.swift; sourceTree = "<group>"; };
+		7406AF572E0F2C7B00038583 /* Standing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standing.swift; sourceTree = "<group>"; };
+		7406AF582E0F2C7B00038583 /* TeamAndPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamAndPlayer.swift; sourceTree = "<group>"; };
+		7406AF592E0F2C7B00038583 /* TeamList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamList.swift; sourceTree = "<group>"; };
+		7406AF5B2E0F2C7B00038583 /* MatchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchRow.swift; sourceTree = "<group>"; };
+		7406AF5C2E0F2C7B00038583 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		7406AF5D2E0F2C7B00038583 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		7406AF5F2E0F2C7B00038583 /* AnswerCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerCellView.swift; sourceTree = "<group>"; };
+		7406AF602E0F2C7B00038583 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		7406AF622E0F2C7B00038583 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		7406AF632E0F2C7B00038583 /* QuizResultsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultsSheet.swift; sourceTree = "<group>"; };
+		7406AF642E0F2C7B00038583 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7406AF662E0F2C7B00038583 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7406AF682E0F2C7B00038583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7406AF692E0F2C7B00038583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7406AF6A2E0F2C7B00038583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7406AF6B2E0F2C7B00038583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7406AF6D2E0F2C7B00038583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7406AF6F2E0F2C7B00038583 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7446E2182E37F0D8002CF49C /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		7446E2192E37F0D8002CF49C /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		7446E21A2E37F0D8002CF49C /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		7446E22E2E37F611002CF49C /* FBNewsAndQvis.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FBNewsAndQvis.entitlements; sourceTree = "<group>"; };
+		7496DC502E04A52F0038BBFF /* FBNewsAndQvis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBNewsAndQvis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DBAD4733599DDCBDAA3244 /* Pods-FBNewsAndQvis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBNewsAndQvis.release.xcconfig"; path = "Target Support Files/Pods-FBNewsAndQvis/Pods-FBNewsAndQvis.release.xcconfig"; sourceTree = "<group>"; };
+		DE7F2F51E2B8524DEEC9C3ED /* Pods-FBNewsAndQvis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBNewsAndQvis.debug.xcconfig"; path = "Target Support Files/Pods-FBNewsAndQvis/Pods-FBNewsAndQvis.debug.xcconfig"; sourceTree = "<group>"; };
+		EEDC532EE76A135FDD66D26E /* Pods_FBNewsAndQvis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBNewsAndQvis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7496DC4D2E04A52F0038BBFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7446E2252E37F147002CF49C /* OneSignalInAppMessages in Frameworks */,
+				7446E22D2E37F1B4002CF49C /* AppsFlyerLib in Frameworks */,
+				7446E2232E37F147002CF49C /* OneSignalFramework in Frameworks */,
+				7446E2272E37F147002CF49C /* OneSignalLocation in Frameworks */,
+				7446E2212E37F147002CF49C /* OneSignalExtension in Frameworks */,
+				EDDF529DAB34EFA3DCE43AD0 /* Pods_FBNewsAndQvis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31A82777D58548DFA12135DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEDC532EE76A135FDD66D26E /* Pods_FBNewsAndQvis.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		448BC5B0DB83D821FBBD6F86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE7F2F51E2B8524DEEC9C3ED /* Pods-FBNewsAndQvis.debug.xcconfig */,
+				D9DBAD4733599DDCBDAA3244 /* Pods-FBNewsAndQvis.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7406AF542E0F2C7B00038583 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				7406AF532E0F2C7B00038583 /* FootballAPI.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		7406AF5A2E0F2C7B00038583 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7406AF552E0F2C7B00038583 /* Match.swift */,
+				7406AF562E0F2C7B00038583 /* Scorer.swift */,
+				7406AF572E0F2C7B00038583 /* Standing.swift */,
+				7406AF582E0F2C7B00038583 /* TeamAndPlayer.swift */,
+				7406AF592E0F2C7B00038583 /* TeamList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7406AF5E2E0F2C7B00038583 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				7406AF5B2E0F2C7B00038583 /* MatchRow.swift */,
+				7406AF5C2E0F2C7B00038583 /* NewsView.swift */,
+				7406AF5D2E0F2C7B00038583 /* TableView.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		7406AF612E0F2C7B00038583 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				7406AF5F2E0F2C7B00038583 /* AnswerCellView.swift */,
+				7406AF602E0F2C7B00038583 /* QuizView.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		7406AF652E0F2C7B00038583 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7406AF622E0F2C7B00038583 /* InfoView.swift */,
+				7406AF632E0F2C7B00038583 /* QuizResultsSheet.swift */,
+				7406AF642E0F2C7B00038583 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7406AF672E0F2C7B00038583 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7406AF542E0F2C7B00038583 /* Api */,
+				7406AF5A2E0F2C7B00038583 /* Models */,
+				7406AF5E2E0F2C7B00038583 /* News */,
+				7406AF612E0F2C7B00038583 /* Quiz */,
+				7406AF652E0F2C7B00038583 /* Settings */,
+				7406AF662E0F2C7B00038583 /* ContentView.swift */,
+				7446E21B2E37F0D8002CF49C /* LoadingView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7406AF712E0F2C7B00038583 /* FBNewsAndQvis */ = {
+			isa = PBXGroup;
+			children = (
+				7446E22E2E37F611002CF49C /* FBNewsAndQvis.entitlements */,
+				7406AF672E0F2C7B00038583 /* Views */,
+				7406AF682E0F2C7B00038583 /* AppDelegate.swift */,
+				7406AF692E0F2C7B00038583 /* Assets.xcassets */,
+				7406AF6A2E0F2C7B00038583 /* Info.plist */,
+				7406AF6C2E0F2C7B00038583 /* LaunchScreen.storyboard */,
+				7406AF6E2E0F2C7B00038583 /* Main.storyboard */,
+				7406AF6F2E0F2C7B00038583 /* SceneDelegate.swift */,
+			);
+			path = FBNewsAndQvis;
+			sourceTree = "<group>";
+		};
+		7446E21B2E37F0D8002CF49C /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				7446E2182E37F0D8002CF49C /* CheckLink.swift */,
+				7446E2192E37F0D8002CF49C /* InternetViewController.swift */,
+				7446E21A2E37F0D8002CF49C /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		7496DC472E04A52F0038BBFF = {
+			isa = PBXGroup;
+			children = (
+				7406AF712E0F2C7B00038583 /* FBNewsAndQvis */,
+				7496DC512E04A52F0038BBFF /* Products */,
+				448BC5B0DB83D821FBBD6F86 /* Pods */,
+				31A82777D58548DFA12135DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7496DC512E04A52F0038BBFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7496DC502E04A52F0038BBFF /* FBNewsAndQvis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7496DC4F2E04A52F0038BBFF /* FBNewsAndQvis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7496DC632E04A5300038BBFF /* Build configuration list for PBXNativeTarget "FBNewsAndQvis" */;
+			buildPhases = (
+				D8F4118EE3413DF43D71FDF9 /* [CP] Check Pods Manifest.lock */,
+				7496DC4C2E04A52F0038BBFF /* Sources */,
+				7496DC4D2E04A52F0038BBFF /* Frameworks */,
+				7496DC4E2E04A52F0038BBFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBNewsAndQvis;
+			packageProductDependencies = (
+				7446E2202E37F147002CF49C /* OneSignalExtension */,
+				7446E2222E37F147002CF49C /* OneSignalFramework */,
+				7446E2242E37F147002CF49C /* OneSignalInAppMessages */,
+				7446E2262E37F147002CF49C /* OneSignalLocation */,
+				7446E22C2E37F1B4002CF49C /* AppsFlyerLib */,
+			);
+			productName = FBNewsAndQvis;
+			productReference = 7496DC502E04A52F0038BBFF /* FBNewsAndQvis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7496DC482E04A52F0038BBFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					7496DC4F2E04A52F0038BBFF = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 7496DC4B2E04A52F0038BBFF /* Build configuration list for PBXProject "FBNewsAndQvis" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7496DC472E04A52F0038BBFF;
+			packageReferences = (
+				7446E21F2E37F147002CF49C /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+				7446E22B2E37F1B4002CF49C /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+			);
+			productRefGroup = 7496DC512E04A52F0038BBFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7496DC4F2E04A52F0038BBFF /* FBNewsAndQvis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7496DC4E2E04A52F0038BBFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7406AF722E0F2C7B00038583 /* Assets.xcassets in Resources */,
+				7406AF742E0F2C7B00038583 /* LaunchScreen.storyboard in Resources */,
+				7406AF752E0F2C7B00038583 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D8F4118EE3413DF43D71FDF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBNewsAndQvis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7496DC4C2E04A52F0038BBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7406AF762E0F2C7B00038583 /* FootballAPI.swift in Sources */,
+				7406AF772E0F2C7B00038583 /* Match.swift in Sources */,
+				7446E21C2E37F0D8002CF49C /* InternetViewController.swift in Sources */,
+				7446E21D2E37F0D8002CF49C /* CheckLink.swift in Sources */,
+				7446E21E2E37F0D8002CF49C /* LoaderViewController.swift in Sources */,
+				7406AF782E0F2C7B00038583 /* Scorer.swift in Sources */,
+				7406AF792E0F2C7B00038583 /* Standing.swift in Sources */,
+				7406AF7A2E0F2C7B00038583 /* TeamAndPlayer.swift in Sources */,
+				7406AF7B2E0F2C7B00038583 /* TeamList.swift in Sources */,
+				7406AF7C2E0F2C7B00038583 /* MatchRow.swift in Sources */,
+				7406AF7D2E0F2C7B00038583 /* NewsView.swift in Sources */,
+				7406AF7E2E0F2C7B00038583 /* TableView.swift in Sources */,
+				7406AF7F2E0F2C7B00038583 /* AnswerCellView.swift in Sources */,
+				7406AF802E0F2C7B00038583 /* QuizView.swift in Sources */,
+				7406AF812E0F2C7B00038583 /* InfoView.swift in Sources */,
+				7406AF822E0F2C7B00038583 /* QuizResultsSheet.swift in Sources */,
+				7406AF832E0F2C7B00038583 /* SettingsView.swift in Sources */,
+				7406AF842E0F2C7B00038583 /* ContentView.swift in Sources */,
+				7406AF852E0F2C7B00038583 /* AppDelegate.swift in Sources */,
+				7406AF862E0F2C7B00038583 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7406AF6C2E0F2C7B00038583 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7406AF6B2E0F2C7B00038583 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7406AF6E2E0F2C7B00038583 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7406AF6D2E0F2C7B00038583 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7496DC642E04A5300038BBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7F2F51E2B8524DEEC9C3ED /* Pods-FBNewsAndQvis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FBNewsAndQvis/FBNewsAndQvis.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FBNewsAndQvis/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Penalty Legends";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roc.p3nl3gends;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7496DC652E04A5300038BBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9DBAD4733599DDCBDAA3244 /* Pods-FBNewsAndQvis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FBNewsAndQvis/FBNewsAndQvis.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FBNewsAndQvis/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Penalty Legends";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roc.p3nl3gends;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7496DC662E04A5300038BBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7496DC672E04A5300038BBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7496DC4B2E04A52F0038BBFF /* Build configuration list for PBXProject "FBNewsAndQvis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7496DC662E04A5300038BBFF /* Debug */,
+				7496DC672E04A5300038BBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7496DC632E04A5300038BBFF /* Build configuration list for PBXNativeTarget "FBNewsAndQvis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7496DC642E04A5300038BBFF /* Debug */,
+				7496DC652E04A5300038BBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7446E21F2E37F147002CF49C /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.14;
+			};
+		};
+		7446E22B2E37F1B4002CF49C /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7446E2202E37F147002CF49C /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7446E21F2E37F147002CF49C /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalExtension;
+		};
+		7446E2222E37F147002CF49C /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7446E21F2E37F147002CF49C /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+		7446E2242E37F147002CF49C /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7446E21F2E37F147002CF49C /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalInAppMessages;
+		};
+		7446E2262E37F147002CF49C /* OneSignalLocation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7446E21F2E37F147002CF49C /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalLocation;
+		};
+		7446E22C2E37F1B4002CF49C /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7446E22B2E37F1B4002CF49C /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7496DC482E04A52F0038BBFF /* Project object */;
+}
