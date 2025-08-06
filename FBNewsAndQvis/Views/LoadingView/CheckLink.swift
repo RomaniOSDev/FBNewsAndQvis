@@ -15,13 +15,15 @@ struct CheckURLService {
         
         let task = URLSession.shared.dataTask(with: url) { _, response, error in
             if let error = error {
-                print("Error: \(error.localizedDescription)")
+                print("Error http: \(error.localizedDescription)")
+        
                 completion(false)
                 return
             }
             
             if let httpResponse = response as? HTTPURLResponse {
                 if httpResponse.statusCode != 404 {
+                    print("http response code is \(httpResponse.statusCode)")
                     completion(true)
                     
                 } else {
@@ -29,6 +31,7 @@ struct CheckURLService {
                     completion(false)
                 }
             } else {
+                print("http response bad")
                 completion(false)
             }
         }

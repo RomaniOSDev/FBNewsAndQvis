@@ -4,8 +4,6 @@ import OneSignalFramework
 
 class WebviewVC: UIViewController, WKNavigationDelegate  {
     
-    private let oneSignalIDChecker = OneSignalIDChecker()
-
     func obtainCookies() {
         let standartStorage: UserDefaults = UserDefaults.standard
         let data: Data? = standartStorage.object(forKey: "cvcvcv") as? Data
@@ -59,7 +57,6 @@ class WebviewVC: UIViewController, WKNavigationDelegate  {
     
     override func viewWillDisappear(_ animated: Bool) {
             super.viewWillDisappear(animated)
-            oneSignalIDChecker.stopCheckingOneSignalID()
         }
     
     private func onesignalInit() {
@@ -67,8 +64,6 @@ class WebviewVC: UIViewController, WKNavigationDelegate  {
             OneSignal.Notifications.requestPermission({ accepted in
 
             }, fallbackToSettings: true)
-            
-            OneSignal.login("did not get device id")
         }
     }
     
